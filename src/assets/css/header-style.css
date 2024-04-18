@@ -10,13 +10,14 @@
 
 header{
     padding: 5rem 0;
-    background-image: radial-gradient(circle, #a3fad6, #00FF94);
+    background-image: radial-gradient(circle, #F1CF63, #F1CF63);
 }
 
 .header-container{
     width: 80%;
     margin: auto;
     padding: 1rem 2rem;
+    color: #000000;
 }
 
 .header-container h2{
