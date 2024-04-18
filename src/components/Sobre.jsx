@@ -4,6 +4,7 @@ import iconLinkedin from '../assets/img/sobre-linkedin.png'
 import iconGithub from '../assets/img/sobre-github.png'
 import iconCurriculo from '../assets/img/sobre-currículo.png'
 import myImg from '../assets/img/my-img.jpeg'
+import doc from '../assets/doc/cv-analista.pdf';
 
 function Sobre (){
     return(
@@ -24,7 +25,7 @@ function Sobre (){
                         <div className='sobre-box-icon'>
                             <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'><img src={iconLinkedin} alt="icon01" /></a>
                             <a href="https://github.com/HenriqueCorsi" target='_blank'><img src={iconGithub} alt="icon02" /></a>
-                            <a href="#"><img src={iconCurriculo} alt="icon03" /></a>
+                            <a href={doc} download="cv-analista.pdf" target='_blank'><img src={iconCurriculo} alt="icon03" /></a>
                         </div>
                     </div>
                 </div>
