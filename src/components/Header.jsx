@@ -3,6 +3,7 @@ import iconLinkedin from '../assets/img/linkedin-icon.png';
 import iconGitHub from '../assets/img/github-icon.png';
 import iconCurriculo from '../assets/img/currículo-icon.png';
 
+
 function Header(){
     return(
         <header>
@@ -13,7 +14,7 @@ function Header(){
                     <div className='icon-box'>
                         <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'><img src={iconLinkedin} alt="icone Linkedin" /></a>
                         <a href="https://github.com/HenriqueCorsi" target='_blank'><img src={iconGitHub} alt="icone Gihub" /></a>
-                        <a href="#" target='_blank'><img src={iconCurriculo} alt="icon Curriulo" /></a>
+                        <a href="#" download="../assets/doc/cv-analista.pdf" target='_blank'><img src={iconCurriculo} alt="icon Curriulo" /></a>
                     </div>
                 </div>
                 <div className='header-box02'>
