@@ -9,7 +9,7 @@ function Header(){
     return(
         <header>
            <div className='header-container'>
-                <h2>Olá,👋 me chamo <strong>Paulo Henrique</strong></h2>
+                <h2>Olá,👋🏽 me chamo <strong>Paulo Henrique</strong></h2>
                 <div className='header-box01'>
                     <h1>Analista</h1>
                     <div className='icon-box'>
