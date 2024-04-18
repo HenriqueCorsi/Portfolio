@@ -14,7 +14,7 @@ function Header(){
                     <div className='icon-box'>
                         <a href="https://www.linkedin.com/in/paulohenrique--/" target='_blank'><img src={iconLinkedin} alt="icone Linkedin" /></a>
                         <a href="https://github.com/HenriqueCorsi" target='_blank'><img src={iconGitHub} alt="icone Gihub" /></a>
-                        <a href="#" download="../assets/doc/cv-analista.pdf" target='_blank'><img src={iconCurriculo} alt="icon Curriulo" /></a>
+                        <a href="/assets/doc/cv-analista.pdf"  download="cv-analista.pdf" target='_blank'><img src={iconCurriculo} alt="icon Curriulo" /></a>
                     </div>
                 </div>
                 <div className='header-box02'>
