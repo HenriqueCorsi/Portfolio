@@ -10,14 +10,14 @@
 
 header{
     padding: 5rem 0;
-    background-image: radial-gradient(circle, #F1CF63, #F1CF63);
+    background-image: radial-gradient(circle, #250DFF, #250DFF);
 }
 
 .header-container{
     width: 80%;
     margin: auto;
     padding: 1rem 2rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 .header-container h2{
@@ -43,6 +43,9 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 20%;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 6px 0px #000;
 }
 
 .icon-box a{
@@ -82,7 +85,7 @@ header{
     font-weight: 600;
 }
 
-@media (min-width: 851px) and (max-width: 1200px) {
+@media (min-width: 1201px) and (max-width: 1300px) {
     .header-container{
         width: 90%;
     }
@@ -92,13 +95,28 @@ header{
     }
 
     .icon-box{
-        width: 50%;
+        width: 20%;
     }
     
 
 }
+ 
 
-@media screen and (max-width: 851px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .header-container{
+        width: 90%;
+    }
+
+    .header-box01 h1, .header-box02 h1{
+        font-size: 120px;
+    }
+
+    .icon-box{
+        width: 25%;
+    }    
+}
+
+@media screen and (max-width: 999px) {
     .header-container{
         width: 90%;
     }
@@ -116,7 +134,7 @@ header{
     }
 
     .icon-box{
-        width: 50%;
+        width: 20%;
     }
 
     .icon-box a > img{
@@ -128,7 +146,7 @@ header{
     }
 
     
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .header-container{
         width: 95%;
         padding: 0;
@@ -151,7 +169,7 @@ header{
     }
 
     .icon-box{
-        width: 35%;
+        width: 20%;
     }
 
     .icon-box a > img{
